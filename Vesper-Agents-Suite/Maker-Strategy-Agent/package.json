@@ -1,6 +1,6 @@
 {
   "name": "vesper-1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vesper Maker Strategies Agent",
   "scripts": {
     "build": "tsc",
@@ -14,12 +14,13 @@
     "publish": "forta-agent publish",
     "disable": "forta-agent disable",
     "enable": "forta-agent enable",
+    "push": "forta-agent push",
     "test": "jest"
   },
   "dependencies": {
     "bignumber.js": "^9.0.1",
-    "forta-agent": "^0.0.22",
-    "forta-agent-tools": "^1.0.23",
+    "forta-agent": "^0.0.32",
+    "forta-agent-tools": "^1.0.32",
     "lru-cache": "^6.0.0"
   },
   "devDependencies": {

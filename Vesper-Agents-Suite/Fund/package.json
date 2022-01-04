@@ -14,12 +14,13 @@
     "publish": "forta-agent publish",
     "disable": "forta-agent disable",
     "enable": "forta-agent enable",
+    "push": "forta-agent push",
     "test": "jest"
   },
   "dependencies": {
     "bignumber.js": "^9.0.1",
-    "forta-agent": "^0.0.23",
-    "forta-agent-tools": "^1.0.19"
+    "forta-agent": "^0.0.32",
+    "forta-agent-tools": "^1.0.32"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
